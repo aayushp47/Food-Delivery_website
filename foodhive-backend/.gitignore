@@ -1,0 +1,6 @@
+.auth_secret
+.env
+.venv/
+__pycache__/
+*.py[cod]
+foodhive.db

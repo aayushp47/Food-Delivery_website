@@ -1,0 +1,27 @@
+# Frontend dependencies and build output
+foodhive/node_modules/
+foodhive/dist/
+foodhive/.env
+foodhive/.env.*
+!foodhive/.env.example
+
+# Backend environment and virtual environment
+foodhive-backend/.venv/
+foodhive-backend/__pycache__/
+foodhive-backend/**/__pycache__/
+foodhive-backend/.env
+foodhive-backend/.env.*
+!foodhive-backend/.env.example
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
