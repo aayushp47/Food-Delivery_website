@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://REPLACE_WITH_RENDER_SERVICE.onrender.com/:path*"
+      "destination": "https://foodhive-api.onrender.com/:path*"
     },
     {
       "source": "/(.*)",
